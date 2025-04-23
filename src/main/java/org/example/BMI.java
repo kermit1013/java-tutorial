@@ -19,18 +19,18 @@ public class BMI {
         System.out.print("請輸入您的體重(公斤): ");
         double weight = scanner.nextDouble();
         double bmi = weight / height * height;
-        System.out.println("請輸入您的BMI: "+ bmi);
+        System.out.println("請輸入您的BMI: " + bmi);
         int result;
         if (bmi < 18.5) {
             result = 1;
-        } else if (18.5 <= bmi && bmi < 24 ) {
+        } else if (18.5 <= bmi && bmi < 24) {
             result = 2;
         } else {
             result = 3;
         }
 
         switch (result) {
-            case 1 :
+            case 1:
                 System.out.print("過輕");
                 break;
             case 2:
@@ -40,5 +40,7 @@ public class BMI {
                 System.out.print("過重");
                 break;
         }
+
+
     }
 }
