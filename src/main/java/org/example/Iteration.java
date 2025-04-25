@@ -12,6 +12,7 @@ public class Iteration {
         System.out.println("\n計算總和：");
         int sum = 0;
         for (int i = 1; i <= 5; i++) {
+//            sum = FunctionExample.add(sum, i);
             sum += i;
             System.out.println("加入 " + i + "，目前總和為: " + sum);
         }
