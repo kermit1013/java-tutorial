@@ -8,7 +8,7 @@ public class PriceCalc {
         final double TAX_RATE = 0.05;
         double coupon = 15;
         boolean isDiscount = toy < 30;
-        coupon =5;
+        coupon = 5;
         // 因為 消費者購買的玩具不符合折扣（isDiscount）的資格
         // ，所以沒有獲得折價券(coupon)
         // isDiscount = T 或 買超過3個玩具
@@ -17,13 +17,14 @@ public class PriceCalc {
         // 反轉 !
         // ! = 不等於
         //提示： 使用 ＆＆
-        if (!isDiscount)  {
+        if (!isDiscount) {
             //61.95
             totalPrice = (toy * itemCount - coupon) * (1 + TAX_RATE);
-        } else  {
+        } else {
             //77.7
-            totalPrice = (toy * itemCount ) * (1 + TAX_RATE);
+            totalPrice = (toy * itemCount) * (1 + TAX_RATE);
         }
-        System.out.print("總價為："+ totalPrice);
+        System.out.print("總價為：" + totalPrice);
     }
+
 }

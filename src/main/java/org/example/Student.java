@@ -3,7 +3,7 @@ package org.example;
 public class Student {
     private String name;
     private int age;
-    private int sex; // 1：male 2:female
+    private Integer sex; //0 是男生(預設) 1是女生
 
     public Student(String name, int age) {
         this.name = name;
@@ -28,6 +28,7 @@ public class Student {
         return age;
     }
 
+
     public String getName() {
         return name;
     }
@@ -39,6 +40,10 @@ public class Student {
     }
 
     public int getSex() {
+        // handle 可能產生的錯誤 並返回預設值
+        if (sex == null) {
+            return 0;
+        }
         return sex;
     }
 

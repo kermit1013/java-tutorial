@@ -10,6 +10,9 @@ public class BankAccount {
     }
 
     public void deposit(double amount) {
+//        if (accountNumber is created 3month ago) {
+//            throw new IllegalArgumentException("未符合資格");
+//        }
         if (amount > 0) {
             balance += amount;
         }
