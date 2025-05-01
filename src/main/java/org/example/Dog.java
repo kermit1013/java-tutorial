@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.model.Animal;
+
 class Dog extends Animal {
     private double weight;
     private String color;
