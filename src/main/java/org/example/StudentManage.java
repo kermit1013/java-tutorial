@@ -4,7 +4,7 @@ public class StudentManage {
     public static void main(String[] args) {
         // 學生姓名數組
         String[] names = {"小明", "小華", "小芳", "小強", "小李"};
-
+        
         // 各科成績數組
         int[] mathScores = {85, 76, 92, 63, 70};
         int[] englishScores = {92, 83, 78, 86, 72};
@@ -32,6 +32,7 @@ public class StudentManage {
 
         // 計算並顯示總分最高的學生
         System.out.println("\n總分排名：");
+
         displayTotalScoreRanking(names, mathScores, englishScores, scienceScores);
     }
 

@@ -1,6 +1,5 @@
 package org.example;
 
-import org.example.model.Animal;
 
 class Dog extends Animal {
     private double weight;
@@ -10,7 +9,7 @@ class Dog extends Animal {
     public Dog(String species) {
         super(species);
     }
-    
+
     @Override
     public void eat() {
         System.out.println("啃骨頭");
