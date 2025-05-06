@@ -18,4 +18,8 @@ public class BeefStewWithPotato {
     public void serve() {
         System.out.println("上菜拉");
     }
+
+    public String serve(String name) {
+        return name + "上菜拉";
+    }
 }
