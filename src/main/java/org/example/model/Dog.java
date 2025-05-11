@@ -1,7 +1,7 @@
-package org.example;
+package org.example.model;
 
 
-class Dog extends Animal {
+public class Dog extends Animal {
     private double weight;
     private String color;
     private int number;

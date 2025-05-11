@@ -1,4 +1,4 @@
-package org.example;
+package org.example.model;
 
 class Animal {
     private String species;

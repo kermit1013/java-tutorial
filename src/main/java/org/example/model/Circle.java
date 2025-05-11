@@ -1,4 +1,4 @@
-package org.example;
+package org.example.model;
 
 class Circle extends Shape {
     private double radius;
