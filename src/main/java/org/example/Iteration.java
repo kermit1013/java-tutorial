@@ -18,6 +18,7 @@ public class Iteration {
 
         //array 陣列 []
         String[] fruitBox = {"apple", "banana", "peach", "pineapple"};
+        String[] clothes = {"長袖", "短秀", ",."};
         //1 basic for
         for (int i = 0; i < 5; i++) {
             System.out.println(fruitBox[i]);

@@ -61,6 +61,6 @@ public class Student extends Person implements Notifiable {
 
     @Override
     public void sendNotification(String message) {
-        
+        System.out.printf("向 %s 發送通知： %s%n", getName(), message);
     }
 }
