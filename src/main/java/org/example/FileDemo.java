@@ -4,18 +4,16 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class FileDemo {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         System.out.println("正常執行");
         String path = "";
         //Exception 受檢
-        FileReader reader = new FileReader(path);
-        reader.close();
-//        try {
-//            FileReader reader = new FileReader(path);
-//            reader.close();
-//        } catch (IOException e) {
-//            System.out.println("檔案讀取錯誤");
-//        }
+        try {
+            FileReader reader = new FileReader(path);
+            reader.close();
+        } catch (IOException e) {
+            System.out.println("檔案讀取錯誤");
+        }
 
         String numberStr = "1231231eeeee";
         int number;
